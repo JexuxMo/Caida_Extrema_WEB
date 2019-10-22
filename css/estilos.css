@@ -1,0 +1,88 @@
+
+/* Titulo*********************************************************************************************/
+header div h1
+{
+    font-family: "Goma";
+    font-size: 50px;
+    color: red;
+    
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* Opciones de Menu***********************************************************************************/
+nav
+{   
+    height: 156px !important;
+    max-height: 156px;
+    box-sizing: border-box;
+}
+
+nav div a
+{
+    /* Edicion del texto*/
+    text-decoration: none !important;
+    font-family: "Belmongo";
+    font-size: 35px;
+    font-style:bold;
+        
+    /* Edicion del borde*/
+    border:1px dashed;
+    border-color:#B4FFF5;
+    border-radius: 10px;
+    
+    
+}
+
+.col-sm-6,.col-6,.col-lg-6 
+{
+    width: 175px;
+    max-width: 175px;
+    float:left;
+    
+}
+
+
+/* Contexto y contenido*******************************************************************************/
+div h3,p
+{
+    font-family: "Belmongo";
+    font-size: 20px;
+    font-style:bold;
+    color:coral;
+}
+
+p
+{
+    height: 100px;
+    max-height: 100px;
+    box-sizing: border-box;
+
+    /* Area de texto(scrollable)*/
+    border:1px solid;
+    border-style:groove;
+    border-color:#B4FFF5;
+    background : #000000;
+    
+    color : #BE78CC;
+    padding : 4px;
+    overflow : auto;
+}
+
+footer div b
+{
+
+    padding-top: 30px;
+    color: #E7E3E8;
+
+}
+
+
+/* Comportamiento al pasar el mouse*******************************************************************/
+div a:hover
+{
+    border-color:#FFFF00;
+    background: #ACAC09;
+}
+
+

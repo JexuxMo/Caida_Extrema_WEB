@@ -1,0 +1,19 @@
+@font-face {
+    /* Titulo*/
+    font-family: "Goma";
+    src: url(../utilidades/Goma.woff) format("woff");
+}
+
+@font-face {
+    /* Menu*/
+    font-family: "Belmongo";
+    src: url(../utilidades/Belmongo.ttf) format("truetype");
+}
+
+@font-face 
+{
+    /* Score*/
+    font-family: "ARCADE";
+    src: url(../utilidades/ARCADE.woff) format("woff");
+}
+

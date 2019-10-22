@@ -1,0 +1,59 @@
+/* Se ajusta todo el contenido a la equina superir derecha de la pantalla*/
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+title, script
+{
+    display: none;
+}
+
+body
+{
+    width: 100vw;
+    height: 95vh;
+    
+    /*background: #191919 !important;*/
+    background: url(../utilidades/background.png);
+    background-size: 100px;
+
+}
+
+/* Todo el contenido se ajusta al centro*/
+body .container-window
+{   
+    /* Tamaño del la ventana de contendio*/
+    width: 420px;
+    height: 100%;
+    
+    max-width:420px;
+    
+    box-sizing: border-box;
+    /* Bordes del la ventana de contenido*/
+    border: 15px solid;
+    border-style:ridge;
+    border-color: #B4FFF5;
+    border-radius: 20px;
+    
+    /* Margen centrado*/
+    margin: 1% auto;
+    
+    /* Fondo*/
+    background: #000;
+    opacity: 0.93;
+    
+    /* Oculta el contenido para que no salga del window*/
+    overflow: hidden;
+}
+
+/* Afecta a todo los recuadros dentro del window******************************************************/
+.my-container,header,nav,footer,article
+{
+    width: 350px;
+    max-width:350px;
+    box-sizing: border-box;
+    margin: 0px auto !important;
+}

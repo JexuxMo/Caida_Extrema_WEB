@@ -1,0 +1,68 @@
+/* Titulo*********************************************************************************************/
+div h2,p
+{
+    font-family: "Belmongo";
+    
+}
+
+header div h2
+{
+    font-size: 25px;
+    color: #F95B8D;
+    
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+
+/* Contexto y contenido*******************************************************************************/
+article
+{
+    font-family: "Belmongo";
+    font-size: 15px;
+    font-style:bold;
+    
+
+    /* Area de texto(scrollable)*/
+    border:1px dashed;
+    border-style:groove;
+    border-color:#B4FFF5;
+    background : #000000;
+    
+    color : #BE78CC;
+    padding : 4px;
+    overflow : auto;
+}
+
+article
+{
+    height: 100px;
+    max-height: 100px;
+    box-sizing: border-box;
+
+    /* Borde en la imagen*/
+    border:1px dashed;
+    border-style:groove;
+    border-color:#B4FFF5;
+    background : #000000;
+    
+    color : #BE78CC;
+    padding : 4px;
+
+    color : #BE78CC;
+    padding : 4px;
+    overflow : auto;
+}
+
+.col-sm-4,.col-4,.col-lg-4 
+{
+    height: 100px;
+    max-height: 100px;
+    box-sizing: border-box;
+
+    /* Borde en la imagen*/
+    border:1px dashed;
+    border-style:groove;
+    border-color:#B4FFF5;
+}
+
